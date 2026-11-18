@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Le blog des sports</title>
+
+    <!-- Les fondations -->
+    <link rel="stylesheet" href="global.css" />
+
+    <!-- Les éléments de communs pour toutes les pages -->
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+
+    <!-- Feuille de style pour la page accueil -->
+    <link rel="stylesheet" href="accueil.css" />
+
+    <!--Feuille dédié à la responsivité -->
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+
+  <body id="accueil">
+    <header>
+      <!--Menu -->
+      <nav class="container">
+        <ul>
+          <li><a href="accueil.html">Accueil</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+        </ul>
+
+        <!-- Boutons pour lr choix des langues-->
+        <div>
+          <button onclick="setLanguage('fr')">FR</button>
+          <button onclick="setLanguage('en')">EN</button>
+        </div>
+
+        <!--Bouton chercher-->
+        <form>
+          <input type="text" placeholder="Chercher..." />
+          <button type="submit">Chercher</button>
+        </form>
+      </nav>
+
+      <!-- titre et logo de la page -->
+
+      <h1>Actualité-sports</h1>
+      <div class="contenu-de-tete">
+        <img src="mon-logo.webp" alt="Logo de la page" />
+        <h2>Actualité des sports. Le sport au quotidien</h2>
+      </div>
+    </header>
+
+    <!-- Conteneur d'articles accompagnés par des images converties(eco concept) -->
+    <main>
+      <section class="conteneur-articles">
+        <article class="fiche-articles">
+          <img src="rugby.webp" alt="image rugby" />
+          <h3>
+            "L'une des plus grandes victoires de son histoire" : la presse
+            étrangère à genoux devant Dupont, Galthié et les Bleus.
+          </h3>
+          <p>
+            Le XV de France fait l'unanimité chez les médias étrangers, éblouis
+            après la victoire arrachée face aux Springboks (21-19). Même en
+            Afrique du Sud, on s'incline devant les Bleus.
+          </p>
+        </article>
+
+        <article class="fiche-articles">
+          <img src="wemby.webp" alt="image basketball" />
+          <h3>NBA : Wemby enchaîne avec les Spurs, les Sixers tombent.</h3>
+          <p>
+            Après le record, Wembanyama déroule ! Le champion des Spurs a
+            inscrit vendredi, 30 points en 26 minutes pour s'imposer à
+            Sacramento, quand les Cavaliers ont gâché le retour de LeBron James
+            à Cleveland.
+          </p>
+        </article>
+
+        <article class="fiche-articles">
+          <img src="victoire.webp" alt="image football" />
+          <h3>
+            Ligue des nations : A dix, l'Angleterre met fin à la folle série de
+            43 matchs sans défaite de l'invincible Espagne.
+          </h3>
+          <p>
+            Les derniers champions d'Europe et du monde se sont inclinés contre
+            l'Angleterre (2-3), dimanche soir à Madrid, lors de l'ultime journée
+            de la Ligue des nations. Une grande première depuis mars 2024.
+          </p>
+        </article>
+
+        <article class="fiche-articles">
+          <img src="tennis.webp" alt="image tennis" />
+          <h3>
+            Carlos Alcaraz en démonstration face à Frances Tiafoe pour son
+            entrée en lice aux Finales ATP de Turin.
+          </h3>
+          <p>
+            Pour son premier match aux Finales ATP de Turin, Carlos Alcaraz n'a
+            laissé aucune chance à Frances Tiafoe ce lundi après-midi avec une
+            victoire sans appel en 1h09 (6-2, 6-2). L'Espagnol, qui vise un
+            premier titre dans ce tournoi des maîtres, a fait forte impression
+            et confirme son statut de favori.
+          </p>
+        </article>
+        <!-- Pied de page -->
+        
+          <footer>
+            <p>&copy; 2026 Actualité-sports. Tous droits réservés.</p>
+          </footer>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

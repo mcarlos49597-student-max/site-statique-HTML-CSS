@@ -1,0 +1,15 @@
+.conteneur-articles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0% auto;
+}
+
+.fiche-articles {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}

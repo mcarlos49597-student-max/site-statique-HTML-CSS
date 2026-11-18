@@ -1,0 +1,14 @@
+.conteneur-articles {
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0% auto;
+}
+
+.fiche-articles {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  gap: 10px;
+}

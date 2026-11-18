@@ -1,0 +1,29 @@
+h1 {
+  color: black;
+  text-align: left;
+  font-weight: 700;
+  font-size: 42px;
+  background-color: burlywood;
+}
+
+h2 {
+  color: black;
+  position: static;
+  font-weight: 700;
+  font-size: 42px;
+  background-color: burlywood;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: lightyellow;
+  overflow: visible;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;;
+}
+
+/*Responsive designe 

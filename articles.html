@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <title>Le blog des sports</title>
+    <!-- Les fondations -->
+    <link rel="stylesheet" href="global.css" />
+
+    <!-- Les éléments communs pour toutes les pages -->
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+
+    <!-- feuille de style pour la page catégorie -->
+    <link rel="stylesheet" href="articles.css" />
+
+    <!--Feuille dédié à la responsivité -->
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+
+  <body id="categorie">
+    <header>
+      <!--Menu -->
+      <nav class="container">
+        <ul>
+          <li><a href="accueil.html">Accueil</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+        </ul>
+
+        <div>
+          <button onclick="setLanguage('fr')">FR</button>
+          <button onclick="setLanguage('en')">EN</button>
+        </div>
+
+        <!-- Sous menu -->
+        <nav>
+          <ul>
+            <li><a href="#football">Football</a></li>
+            <li><a href="#basketball">Basketball</a></li>
+            <li><a href="#tennis1">Tennis de table</a></li>
+            <li><a href="#tennis2">Tennis de terrain</a></li>
+          </ul>
+        </nav>
+
+        <!--Bouton chercher-->
+        <form>
+          <input type="text" placeholder="Chercher..." />
+          <button type="submit">Chercher</button>
+        </form>
+      </nav>
+
+      <!-- titre et logo de la page -->
+
+      <h1>Actualité-sports</h1>
+      <div class="contenu-de-tete">
+        <img src="mon-logo.webp" alt="Logo de la page" />
+        <h2>Les articles du jour</h2>
+      </div>
+    </header>
+
+    <main>
+      <section class="conteneur-articles">
+        <article class="fiche-articles">
+          <img src="image0.webp" alt="image basketball" />
+          <h3>Une championne française</h3>
+          <p>
+            Gabby Williams est devenue la nouvelle championne et MVP de la WNBA.
+          </p>
+          <p>Temps de lecture, 2 min.</p>
+          <a href="article-basket.html">Lire l'article complet</a>
+          <!-- lien qui permet de voir les detailles d'un article-->
+        </article>
+
+        <article class="fiche-articles">
+          <img src="image1.webp" alt="image illustrative" />
+          <h3>
+            Antoine Arnault reprend la succession de Pierre Ferracci à la
+            présidence du PFC.
+          </h3>
+          <p>
+            Avec un très bon début de saison, le Paris Football Club change de
+            président.
+          </p>
+          <p>Temps de lecture, 5 min.</p>
+          <a href="#link">Lire l'article complet</a>
+        </article>
+
+        <article class="fiche-articles">
+          <img src="image2.webp" alt="image tennis" />
+          <h3>
+            Arthur Fils donne des nouvelles rassurantes sur sa blessure après
+            son élimination au Masters de Paris.
+          </h3>
+          <p>
+            Le numéro 1 français, a tenu à rassurer sur son état physique, après
+            une nouvelle rencontre difficile face à Taylor Fritz.
+          </p>
+          <p>Temps de lecture, 3 min.</p>
+          <a href="#link">Lire l'article complet</a>
+        </article>
+
+        <article class="fiche-articles">
+          <img src="image3.webp" alt="image tennis de table" />
+          <h3>Les frères Lebrun sont une nouvelle fois au rendez-vous.</h3>
+          <p>
+            Alexis et Félix Lebrun confirment une nouvelle fois leur domination
+            sur la scène européenne de tennis de table.
+          </p>
+          <p>Temps de lecture, 3 min.</p>
+          <a href="#link">Lire l'article complet</a>
+
+          <article class="pied-de-page">
+            <footer>
+              <p>&copy; 2026 Actualité-sports. Tous droits réservés.</p>
+            </footer>
+          </article>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+header {
+  display: contents;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+}

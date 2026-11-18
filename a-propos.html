@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <title>Le blog des sports</title>
+
+    <!-- Les fondations -->
+    <link rel="stylesheet" href="global.css" />
+
+    <!-- Les éléments de communs pour toutes les pages -->
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+
+    <!-- feuille de style pour la page a propos -->
+    <link rel="stylesheet" href="a-propos.css" />
+
+    <!--Feuille dédié à la responsivité -->
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+
+  <body id="a-propos">
+    <header>
+      <!--Menu -->
+      <nav class="container">
+        <ul>
+          <li><a href="accueil.html">Accueil</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+        </ul>
+
+        <div>
+          <button onclick="setLanguage('fr')">FR</button>
+          <button onclick="setLanguage('en')">EN</button>
+        </div>
+
+        <!--Bouton chercher-->
+        <form>
+          <input type="text" placeholder="Chercher..." />
+          <button type="submit">Chercher</button>
+        </form>
+      </nav>
+
+      <!-- titre et logo de la page -->
+
+      <h1>Actualité-sports</h1>
+      <div class="contenu-de-tete">
+        <img src="mon-logo.webp" alt="Logo de la page" />
+        <h2>À propos</h2>
+      </div>
+    </header>
+
+    <main>
+      <article class="breves-propos">
+        <h3>Mon quotidien</h3>
+        <p>
+          Passionné de sport, je vise à partager les informations sportives en
+          temp réel ou en différé, dans le but d'informer les internautes sur
+          l'actualité du sport.
+        </p>
+      </article>
+
+      <article class="breves-propos">
+        <h3>Ma mission</h3>
+        <p>
+          Récolter des l'informations sportives via une recherche poussive et
+          très rigoureuse, pour pouvoir fournir des l'informations vraies et de
+          bonne qualité.
+        </p>
+      </article>
+
+      <article class="breves-propos">
+        <h3>Ma démarche éco-responsable</h3>
+        <p>
+          Dans un souci permanent de respect de l'environnement, j'optimise les
+          ressources (images, vidéos, scripts, serveurs et plus), pour réduire
+          la consommation. Cela passe par la simplification, l'optimisation et
+          la réduction du poids des pages, mais aussi par le passage vers un
+          hébergeur vert fonctionnant à l'énergie renouvelable.
+        </p>
+      </article>
+      <article class="breves-propos">
+        <h3>Contact</h3>
+        <p>
+          Si vous souhaitez échanger à propos de ce que je propose sur mon blog,
+          n'hésitez pas à me contacter.
+        </p>
+
+        <h3>E-mail</h3>
+        <a href="mailto:mcarlos49597-student@enaco.fr"
+          >mcarlos49597-student@enaco.fr</a
+        >
+        <article class="pied-de-page">
+          <footer>
+            <p>&copy; 2026 Actualité-sports. Tous droits réservés.</p>
+          </footer>
+        </article>
+      </article>
+    </main>
+  </body>
+</html>
