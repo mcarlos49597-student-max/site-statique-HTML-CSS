@@ -9,8 +9,7 @@ header nav a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  white-space: nowrap; 
+  align-items: center; 
   padding: 10px 20px;
 }
 
