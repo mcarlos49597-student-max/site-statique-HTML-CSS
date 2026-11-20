@@ -26,4 +26,8 @@ p {
   line-height: 1.5;;
 }
 
-/*Responsive designe 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
