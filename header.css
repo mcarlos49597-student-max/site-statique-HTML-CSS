@@ -5,7 +5,7 @@ header {
   text-align: center;
 }
 
-header nav {
+header nav a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
